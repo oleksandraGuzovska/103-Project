@@ -1,12 +1,9 @@
 TITLE = 'Game.py 2017/6/12 Oleksandra Guzovska'
 '''-----------------------------------------------------------------------------
 Purpose: 
-     - Draw the board for the IceBreaker game consisting of 40x40 pixel squares 
      - Draw two players each on the opposite sides of the board
-     - Each player is able to move to any legal square
-     - Any legal square of ice turns blue when clicked
-     - The game terminates if the "Quit Game" button is clicked
-     - The game restarts if the "Restart Game" button is clicked
+     - Each player is able to move to any legal square (adjacent, unbroken)
+     - Any legal square of ice turns blue when clicked (becomes broken)
      - The first player to not be able to move loses the game
 -----------------------------------------------------------------------------'''
 print (TITLE)
