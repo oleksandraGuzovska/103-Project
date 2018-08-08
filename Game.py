@@ -1,4 +1,4 @@
-TITLE = 'Cmpt103S17_Milestone3_GO.py 2017/6/12 Oleksandra Guzovska'
+TITLE = 'Game.py 2017/6/12 Oleksandra Guzovska'
 '''-----------------------------------------------------------------------------
 Purpose: 
      - Draw the board for the IceBreaker game consisting of 40x40 pixel squares 
@@ -722,7 +722,6 @@ def main():
             break
 
 #===============================================================================
-# TEST CODE
         
 if __name__ == '__main__':
     main()
